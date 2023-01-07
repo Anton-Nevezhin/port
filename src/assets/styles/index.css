@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Medium.ttf);
+  font-weight: medium;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+  font-weight: semibold;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  width: 1440px;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 10px;
+}
+.header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1440px;
+  padding-top: 1px;
+  height: 80px;
+}
+.header__content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1240px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  width: 581px;
+  display: flex;
+  justify-content: space-between;
+}
+.text__header {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: medium;
+  color: #4A4A4A;
+}
+.link_header {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: medium;
+  color: #4A4A4A;
+}
+.header__button {
+  height: 30px;
+  width: 196px;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: medium;
+  color: #E97522;
+  letter-spacing: 1px;
+  background-color: white;
+  border-color: #E97522;
+  border-radius: 10px;
+  border-bottom: 2px;
+  border-style: solid;
+}
+.header__tel {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: semibold;
+  color: #4A4A4A;
+}
+.card {
+  text-align: center;
+  box-shadow: 0px 0px 6px #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card__image {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.card__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card__text {
+  font-size: 14px;
+}
+.cards {
+  display: flex;
+}
+.cards__item {
+  margin-left: 20px;
+  width: 25%;
+}
+.cards__item:first-child {
+  margin-left: 0;
+}
