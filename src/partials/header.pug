@@ -1,7 +1,23 @@
-h1 header
+mixin menu(title)
+    .text__header.link__header
+        a.link.link_header(href= '#')=title
+
+- const points = ['Портфолио', 'Виды работ', 'О фотостудии', 'Услуги и цены', 'Контакты']
 
 .header
-    a.header__link(href="#") I am link
+    .header__content
+        .logo 
+            img.logo__image(src='../assets/images/logo.png')
+        .menu 
+            each item in points
+                +menu(item)
+        button.header__button ОБРАТНЫЙ ЗВОНОК
+        .header__tel +7 (499) 344 60 91
+
+
+h1 header
+
+
 
 - const kittens = 10
 case kittens

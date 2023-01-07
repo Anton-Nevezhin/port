@@ -18,6 +18,9 @@ body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   width: 1440px;
 }
+a {
+  text-decoration: none;
+}
 .wrapper {
   max-width: 1200px;
   margin: 0 10px;
