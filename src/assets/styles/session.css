@@ -1,0 +1,30 @@
+.session {
+  width: 1240px;
+  height: 461px;
+  padding-top: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  background-color: #F2F4F4;
+}
+.session__title {
+  margin-top: 59px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: semibold;
+  color: #333333;
+}
+.session__text {
+  text-align: left;
+  margin-top: 32px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: medium;
+  color: #4A4A4A;
+}
+.session__link {
+  margin-top: 2px;
+  float: right;
+}

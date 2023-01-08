@@ -1,0 +1,15 @@
+.stages 
+    .stages__title Этапы работ
+    img.stages__image(src='../assets/images/curve-stages.png')
+    .stages__card 
+    
+      include ../partials/card.pug
+      - const t2 = ' Etiam quam erat, molestie elementum elementum porta, tincidunt eget nunc. Ut arcu quam, feugiat vitae laoreet vel, consectetur eget lorem. Duis ultrices ullamcorper dignissim.';
+      - const c2 = [
+      -  {title: 'Lorem ipsum dolor', t2, image: '../assets/images/octocat.png'},
+      -  {title: 'sit amet, consectetur', t2, image: '../assets/images/octocat.png'},
+      - {title: 'adipiscing elit.', t2, image: '../assets/images/octocat.png'}]
+
+      .cards
+        each item in c2
+          +card(item.title, item.t2, 'cards__item', item.image)

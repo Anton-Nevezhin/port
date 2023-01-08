@@ -1,0 +1,44 @@
+.card {
+  text-align: center;
+  box-shadow: 0px 0px 6px #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card__image {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.card__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card__text {
+  font-size: 14px;
+}
+.stage {
+  text-align: center;
+  box-shadow: 0px 0px 6px #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.stage:hover {
+  transform: translateY(-10px);
+}
+.stage__image {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.stage__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.stage__text {
+  font-size: 14px;
+}

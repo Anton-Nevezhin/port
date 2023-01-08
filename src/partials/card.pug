@@ -3,3 +3,9 @@ mixin card(title, text, className, image)
         img.card__image(src=image)
         .card__title=title
         .card__text=text
+
+mixin stage(title, className)
+    .stage(class=className)
+        
+        .card__title=title
+
