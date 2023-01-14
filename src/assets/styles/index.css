@@ -342,3 +342,234 @@ a {
 .history__link {
   float: right;
 }
+.certificate {
+  width: 1440px;
+  height: 920px;
+  padding-top: 1px;
+  text-align: center;
+}
+.certificate__title {
+  margin-top: 81px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: semibold;
+  color: #333333;
+}
+.certificate__image {
+  position: relative;
+}
+.certificate__content {
+  margin-top: 79px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1240px;
+  height: 623px;
+  background-color: #F2F4F4;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.certificate__left {
+  text-align: left;
+  margin-left: 120px;
+}
+.certificate__overhead {
+  margin-top: 112px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: medium;
+  color: #C1C1C1;
+}
+.certificate__head {
+  margin-top: 8px;
+  margin-bottom: 53px;
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 67px;
+  font-weight: semibold;
+  color: #4A4A4A;
+}
+.list {
+  text-align: center;
+  margin-top: 26px;
+  display: flex;
+  justify-content: flex-start;
+}
+.list__image {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+.list__text {
+  margin-left: 16px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: semibold;
+  color: #4A4A4A;
+}
+.certificate__right {
+  margin-right: 86px;
+}
+.certificate__image {
+  margin-top: -7px;
+  z-index: 2;
+}
+.certificate__term {
+  margin-top: -19px;
+  margin-right: 94px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: medium;
+  color: #333333;
+}
+.button_certificate {
+  margin-top: 24px;
+  width: 342px;
+  height: 48px;
+  margin-right: 92px;
+}
+.certificate__curve {
+  position: absolute;
+  left: 574px;
+  top: 200px;
+}
+.reviews {
+  width: 1440px;
+  height: 869px;
+  padding-top: 1px;
+  text-align: center;
+}
+.reviews__title {
+  margin-top: 59px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: semibold;
+  color: #333333;
+}
+.reviews__content {
+  margin-top: 80px;
+  margin-left: 198px;
+  width: 1052px;
+  display: flex;
+  justify-content: space-between;
+}
+.review {
+  text-align: center;
+  margin-top: 101px;
+}
+.review__name {
+  margin-top: 31px;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: semibold;
+  color: #4A4A4A;
+}
+.review__text {
+  margin-top: 14px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: medium;
+  color: #333333;
+}
+.review__view {
+  margin-top: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: semibold;
+  color: #E97522;
+}
+.button_reviews {
+  margin-top: -20px;
+  width: 342px;
+  height: 48px;
+}
+.review-top {
+  margin-top: 0px;
+}
+.form {
+  width: 1440px;
+  height: 869px;
+  padding-top: 1px;
+  text-align: center;
+  position: relative;
+}
+.form__content {
+  margin-top: 99px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.form__right {
+  width: 551px;
+  height: 594px;
+  text-align: center;
+  background-color: #F2F4F4;
+  border-radius: 25px;
+  position: relative;
+  margin-left: -208px;
+}
+.form__left {
+  margin-top: 26px;
+  position: relative;
+}
+.form__circle-left {
+  position: relative;
+  top: 480px;
+  margin-left: -350px;
+  border-radius: 0 0 0 25px;
+}
+.form__address {
+  position: relative;
+  top: -405px;
+}
+.form__form {
+  text-align: center;
+  width: 551px;
+  height: 594px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+}
+.form__text {
+  font-family: Montserrat;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: semibold;
+  color: #4A4A4A;
+}
+.form__input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  display: block;
+  margin-top: 16px;
+  text-align: left;
+}
+.input__text {
+  margin-top: 8px;
+  width: 420px;
+  height: 48px;
+  border-radius: 5px;
+  border-color: #DDDEE4;
+  border-style: solid;
+}
+.form__label {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 12px;
+  font-weight: medium;
+  color: rgba(18, 22, 33, 0.4);
+  align: left;
+}

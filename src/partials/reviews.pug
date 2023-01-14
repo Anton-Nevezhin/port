@@ -1,0 +1,11 @@
+.reviews
+    include ../partials/card.pug
+    - const reviews = [
+    -  {name: 'Мария', text: 'Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.', class: 'review', image: '../assets/images/review-1.png'},
+    -  {name: 'Сергей', text: 'Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.', class: 'review review-top', image: '../assets/images/review-2.png'},
+    - {name: 'Руслан', text: 'Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.', class: 'review', image: '../assets/images/review-3.png'}]
+    .reviews__title Отзывы
+    .reviews__content 
+        each item in reviews
+                +review(item.name, item.text, item.class, item.image)
+    button.button.button_reviews ДОБАВИТЬ ОТЗЫВ

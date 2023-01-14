@@ -4,8 +4,20 @@ mixin card(title, text, className, image)
         .card__title=title
         .card__text=text
 
-mixin stage(title, className)
-    .stage(class=className)
-        
-        .card__title=title
+mixin stage(title, text, className, number)
+    .stage(class=className)       
+        .stage__title=title
+        .stage__text=text       
+        .stage__circle.stage__number=number
 
+mixin list(text, className, image)
+    .list(class=className)
+        img.list__image(src=image)
+        .list__text=text
+
+mixin review(name, text, className, image)
+    .review(class=className)
+        img.review__image(src=image)
+        .review__name=name
+        .review__text=text
+        a(href="#").review__view Показать ещё

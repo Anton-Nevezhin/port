@@ -21,24 +21,24 @@
   font-size: 14px;
 }
 .stage {
+  width: 348px;
+  height: 190px;
+  position: absolute;
   text-align: center;
-  box-shadow: 0px 0px 6px #d9d9d9;
-  border-radius: 8px;
-  padding: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.stage:hover {
-  transform: translateY(-10px);
-}
-.stage__image {
-  height: 30px;
-  margin-bottom: 10px;
+  border-radius: 15px;
+  border-color: #E97522;
+  border-style: solid;
+  background-color: white;
+  z-index: 2;
 }
 .stage__title {
-  font-size: 20px;
   margin-bottom: 10px;
-}
-.stage__text {
-  font-size: 14px;
+  text-align: left;
+  margin-top: 39px;
+  margin-left: 40px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: semibold;
+  color: #333333;
 }
