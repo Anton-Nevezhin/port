@@ -12,3 +12,40 @@
   font-weight: semibold;
   color: #333333;
 }
+.works__slider1 {
+  width: 450px;
+  margin-left: 800px;
+  margin-right: auto;
+  transition: width 3s, height 3s;
+}
+.works__slider {
+  width: 450px;
+  margin-left: 800px;
+  margin-right: auto;
+  transition-property: margin-left;
+  transition-duration: 3s;
+}
+.works__nav {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.works__left {
+  font-size: 32px;
+  cursor: pointer;
+  float: left;
+}
+.works__right {
+  font-size: 32px;
+  cursor: pointer;
+  float: right;
+}
+.works__content {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 1400px;
+  overflow: hidden;
+  display: flex;
+}
