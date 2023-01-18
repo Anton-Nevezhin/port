@@ -1,3 +1,22 @@
+mixin price-mixin(type, sum, location, text, className)
+    .price-mixin(class=className)
+        .price__type=type
+        .price__sum=sum + ' р'
+        .price__location=location
+        .card__text=text
+        .button.button_price ЗАБРОНИРОВАТЬ
+
 .price
     .price__title Стоимость фотосессии
+ 
+    include ../partials/card.pug
+    - const price__text = ' Etiam quam erat, molestie elementum elementum porta, tincidunt eget nunc. Ut arcu quam, feugiat vitae laoreet vel, consectetur eget lorem. Duis ultrices ullamcorper dignissim.';
+    - const prices = [
+    -  {type: 'MINI', sum: '2500', location: '/ 1 локация', price__text, image: '../assets/images/octocat.png'},
+    -  {type: 'STANDART', sum: '5000', location: '/ 2 локации', price__text, image: '../assets/images/octocat.png'},
+    - {type: 'MAXI', sum: 'N', location: '/ Максимальное количество локаций', price__text, image: '../assets/images/octocat.png'}]
+
+    .price__content
+        each item in prices
+          +price-mixin(item.type, item.sum, item.location, price__text, 'price-mixin')
     img.location__image(src='../assets/images/curve-price.png')

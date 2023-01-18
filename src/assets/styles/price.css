@@ -1,3 +1,26 @@
+.price-mixin {
+  width: 398px;
+  height: 654px;
+  text-align: center;
+  box-shadow: 0px 0px 6px #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.price-mixin:hover {
+  transform: translateY(-10px);
+}
+.price-mixin__image {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.price-mixin__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.price-mixin__text {
+  font-size: 14px;
+}
 .price {
   width: 1440px;
   height: 1108px;
@@ -11,4 +34,20 @@
   line-height: 43px;
   font-weight: bold;
   color: #333333;
+}
+.price__content {
+  margin-left: auto;
+  margin-right: auto;
+  height: 740px;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+}
+.button_price {
+  margin-left: auto;
+  margin-right: auto;
+  height: 48px;
+  width: 370px;
+  font-size: 14px;
+  line-height: 48px;
 }
