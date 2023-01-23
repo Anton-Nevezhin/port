@@ -1,3 +1,5 @@
+/* eslint-disable no-new */
+/* eslint-disable no-undef */
 'use strict'
 
 const merge = require('webpack-merge')
@@ -46,4 +48,5 @@ module.exports = merge(require('./webpack.base.conf'), {
     new ExtractTextPlugin(config().assetsSubDirectory + '/css/[name].[contenthash].css')
   ]
 })
+// eslint-disable-next-line eol-last
 new UglifyJSPlugin()
