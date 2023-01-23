@@ -46,3 +46,4 @@ module.exports = merge(require('./webpack.base.conf'), {
     new ExtractTextPlugin(config().assetsSubDirectory + '/css/[name].[contenthash].css')
   ]
 })
+new UglifyJSPlugin()

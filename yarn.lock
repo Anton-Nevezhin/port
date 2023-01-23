@@ -1301,6 +1301,11 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
+"commander@~2.13.0":
+  "integrity" "sha512-MVuS359B+YzaWqjCL/c+22gfryv+mCBPHAv3zyVI2GN8EY6IRP8VwtasXn8jyyhvvq84R4ImN1OKRtcbIasjYA=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-2.13.0.tgz"
+  "version" "2.13.0"
+
 "commander@2.8.x":
   "integrity" "sha512-+pJLBFVk+9ZZdlAOB5WuIElVPPth47hILFkmGym57aq8kwxsowvByvB0DHs1vQAhyMZzdcpTtF0VDKGkSDR4ZQ=="
   "resolved" "http://registry.npm.taobao.org/commander/download/commander-2.8.1.tgz"
@@ -1715,6 +1720,13 @@
   dependencies:
     "domelementtype" "~1.1.1"
     "entities" "~1.1.1"
+
+"dom7@^4.0.4":
+  "integrity" "sha512-DSSgBzQ4rJWQp1u6o+3FVwMNnT5bzQbMb+o31TjYYeRi05uAcpF8koxdfzeoe5ElzPmua7W7N28YJhF7iEKqIw=="
+  "resolved" "https://registry.npmjs.org/dom7/-/dom7-4.0.4.tgz"
+  "version" "4.0.4"
+  dependencies:
+    "ssr-window" "^4.0.0"
 
 "domain-browser@^1.1.1":
   "integrity" "sha512-fJ5MoHxe69h3E4/lJtFRhcWwLb04bhIBSfvCEMS1YDH+/9yEZTqBHTSTgch8nCP5tE5k2gdQEjodUqJzy7qJ9Q=="
@@ -4650,6 +4662,11 @@
   "resolved" "http://registry.npm.taobao.org/source-list-map/download/source-list-map-0.1.8.tgz"
   "version" "0.1.8"
 
+"source-list-map@^2.0.0":
+  "integrity" "sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw=="
+  "resolved" "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
+  "version" "2.0.1"
+
 "source-map-support@^0.4.2":
   "integrity" "sha512-rRBKhFFbqnqAGfJC5G9GMEymeeSJ+oRVdUzWGO17gvN/mNRl6QP9sg3KkAlgWuyw1czYOThcohdVpKcDTAAaHQ=="
   "resolved" "http://registry.npm.taobao.org/source-map-support/download/source-map-support-0.4.12.tgz"
@@ -4661,6 +4678,11 @@
   "integrity" "sha512-MjZkVp0NHr5+TPihLcadqnlVoGIoWo4IBHptutGh9wI3ttUYvCG26HkSuDi+K6lsZ25syXJXcctwgyVCt//xqA=="
   "resolved" "http://registry.npm.taobao.org/source-map/download/source-map-0.5.6.tgz"
   "version" "0.5.6"
+
+"source-map@~0.6.1":
+  "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  "version" "0.6.1"
 
 "source-map@0.4.x":
   "integrity" "sha512-Y8nIfcb1s/7DcobUz1yOO1GSp7gyL+D9zLHDehT7iRESqGSxjJ448Sg7rvfgsRJCnKLdSl11uGf0s9X80cH0/A=="
@@ -4728,6 +4750,11 @@
     "jodid25519" "^1.0.0"
     "jsbn" "~0.1.0"
     "tweetnacl" "~0.14.0"
+
+"ssr-window@^4.0.0", "ssr-window@^4.0.2":
+  "integrity" "sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ=="
+  "resolved" "https://registry.npmjs.org/ssr-window/-/ssr-window-4.0.2.tgz"
+  "version" "4.0.2"
 
 "stackframe@^1.0.2":
   "integrity" "sha512-KBS+fFm4QxvD6YbjstHZdHA0rKNO5g6kfzzgAGwWPDVi4UKIffCvwNnrFM+d3wo+ruLxxOgSHnBECEYjrp2+uA=="
@@ -4867,6 +4894,14 @@
     "sax" "~1.2.1"
     "whet.extend" "~0.9.9"
 
+"swiper@^8.4.6":
+  "integrity" "sha512-HACW035vBz2T6Kfut23EAzXhcDpgR8doX+wjq0ZUvJgS5SQApGrV885DAPLBFnmPUISsAhNSVxPKDxqroFvXvQ=="
+  "resolved" "https://registry.npmjs.org/swiper/-/swiper-8.4.6.tgz"
+  "version" "8.4.6"
+  dependencies:
+    "dom7" "^4.0.4"
+    "ssr-window" "^4.0.2"
+
 "table@^3.7.8":
   "integrity" "sha512-RZuzIOtzFbprLCE0AXhkI0Xi42ZJLZhCC+qkwuMLf/Vjz3maWpA8gz1qMdbmNoI9cOROT2Am/DxeRyXenrL11g=="
   "resolved" "http://registry.npm.taobao.org/table/download/table-3.8.3.tgz"
@@ -4975,6 +5010,14 @@
   "resolved" "http://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
+"uglify-es@^3.0.21":
+  "integrity" "sha512-r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRfO6v67XsQ=="
+  "resolved" "https://registry.npmjs.org/uglify-es/-/uglify-es-3.3.9.tgz"
+  "version" "3.3.9"
+  dependencies:
+    "commander" "~2.13.0"
+    "source-map" "~0.6.1"
+
 "uglify-js@^2.6.1", "uglify-js@^2.7.5", "uglify-js@2.8.x":
   "integrity" "sha512-xhAMcNZFkkPeJk25ACIA01lrCorClPpWGGopZoev/8yqNtV6/KE6z2qEn4irThStOhLFjBAMtAOh9HeEXzMbrg=="
   "resolved" "http://registry.npm.taobao.org/uglify-js/download/uglify-js-2.8.12.tgz"
@@ -4988,6 +5031,15 @@
   "integrity" "sha512-vb2s1lYx2xBtUgy+ta+b2J/GLVUR+wmpINwHePmPRhOsIVCG2wDzKJ0n14GslH1BifsqVzSOwQhRaCAsZ/nI4Q=="
   "resolved" "http://registry.npm.taobao.org/uglify-to-browserify/download/uglify-to-browserify-1.0.2.tgz"
   "version" "1.0.2"
+
+"uglifyjs-webpack-plugin@^1.0.0-beta.1":
+  "integrity" "sha512-oTikFgDzLcRN9el3sk/a62/wusCiQwr1mhcAWDHgQlMGKfV1ZrmEo/QB26TEoci2MLcJGnW8QbwOscxhn/7k1g=="
+  "resolved" "https://registry.npmjs.org/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.0.0-beta.1.tgz"
+  "version" "1.0.0-beta.1"
+  dependencies:
+    "source-map" "^0.5.6"
+    "uglify-es" "^3.0.21"
+    "webpack-sources" "^1.0.1"
 
 "uniq@^1.0.1":
   "integrity" "sha512-Gw+zz50YNKPDKXs+9d+aKAjVwpjNwqzvNpLigIruT4HA9lMZNdMqs9x07kKHB/L9WRzqp4+DlTU5s4wG2esdoA=="
@@ -5203,7 +5255,15 @@
     "source-list-map" "~0.1.7"
     "source-map" "~0.5.3"
 
-"webpack@^2.2.0", "webpack@^2.2.1", "webpack@1 || ^2 || ^2.1.0-beta || ^2.2.0-rc", "webpack@1 || ^2.1.0-beta || ^2.2.0-rc.0", "webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc":
+"webpack-sources@^1.0.1":
+  "integrity" "sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ=="
+  "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-1.4.3.tgz"
+  "version" "1.4.3"
+  dependencies:
+    "source-list-map" "^2.0.0"
+    "source-map" "~0.6.1"
+
+"webpack@^2.0.0 || ^3.0.0", "webpack@^2.2.0", "webpack@^2.2.1", "webpack@1 || ^2 || ^2.1.0-beta || ^2.2.0-rc", "webpack@1 || ^2.1.0-beta || ^2.2.0-rc.0", "webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc":
   "integrity" "sha512-zCuIqwJL7rC+Y4drtgNY2UizDAic1nRq+8m9LzOwB3s/jQWB++GxRWcZHja0ZzYiTLAwOFBHLDUmxD8ScbzKNg=="
   "resolved" "http://registry.npm.taobao.org/webpack/download/webpack-2.2.1.tgz"
   "version" "2.2.1"

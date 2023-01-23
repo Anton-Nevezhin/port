@@ -1,3 +1,8 @@
+@media (max-width: 1024px) {
+  .price__title {
+    font-size: 16px;
+  }
+}
 .price-mixin {
   width: 398px;
   height: 654px;

@@ -5,7 +5,9 @@
   position: relative;
 }
 .slider__content {
+  height: 860px;
   padding-left: 100px;
+  padding-top: 1px;
   margin-top: -860px;
 }
 .slider__title {
@@ -60,7 +62,7 @@
   position: absolute;
   animation: round 16s infinite;
   opacity: 0;
-  width: 100%;
+  width: 1440px;
 }
 @keyframes round {
   25% {
@@ -81,4 +83,32 @@ img:nth-child(3) {
 }
 img:nth-child(4) {
   animation-delay: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .slider {
+    width: 100vw;
+    height: 611px;
+  }
+  .slider__content {
+    padding-left: 80px;
+    margin-top: -611px;
+    height: 611px;
+  }
+  .slider__title {
+    margin-top: 70px;
+    font-size: 48px;
+    line-height: 78px;
+  }
+  .slider__subtitle {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .slider__text {
+    margin-top: 15px;
+  }
+  .slider__images {
+    width: 100vw;
+    height: 611px;
+  }
 }

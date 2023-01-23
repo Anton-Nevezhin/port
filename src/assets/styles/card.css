@@ -20,25 +20,3 @@
 .card__text {
   font-size: 14px;
 }
-.stage {
-  width: 348px;
-  height: 190px;
-  position: absolute;
-  text-align: center;
-  border-radius: 15px;
-  border-color: #E97522;
-  border-style: solid;
-  background-color: white;
-  z-index: 2;
-}
-.stage__title {
-  margin-bottom: 10px;
-  text-align: left;
-  margin-top: 39px;
-  margin-left: 40px;
-  font-family: Montserrat;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: semibold;
-  color: #333333;
-}
