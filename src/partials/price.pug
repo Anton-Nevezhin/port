@@ -29,4 +29,4 @@ mixin price-mixin(type, sum, location, text, className, list)
     .price__content
         each item in prices
           +price-mixin(item.type, item.sum, item.location, price__text, item.class, item.rate)
-    img.price__image(src='../assets/images/curve-price.png')
+    img.price__img(src='../assets/images/curve-price.png')
