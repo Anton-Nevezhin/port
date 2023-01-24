@@ -2609,6 +2609,11 @@
   "resolved" "http://registry.npm.taobao.org/https-browserify/download/https-browserify-0.0.1.tgz"
   "version" "0.0.1"
 
+"husky@^8.0.3":
+  "integrity" "sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg=="
+  "resolved" "https://registry.npmjs.org/husky/-/husky-8.0.3.tgz"
+  "version" "8.0.3"
+
 "icss-replace-symbols@^1.0.2":
   "integrity" "sha512-vm7z490v8C6/fD1N+jK9n8Ou4Ey85Y1Hmo5P5q5dobOHernDEah7UUa6dqj2O8dzhsdBNvQoyopAOYkRbwQbpA=="
   "resolved" "http://registry.npm.taobao.org/icss-replace-symbols/download/icss-replace-symbols-1.0.2.tgz"
