@@ -1,3 +1,6 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable semi */
+/* eslint-disable eol-last */
 /* eslint-disable no-new */
 /* eslint-disable no-undef */
 'use strict'
@@ -49,5 +52,6 @@ module.exports = merge(require('./webpack.base.conf'), {
     new ExtractTextPlugin(config().assetsSubDirectory + '/css/[name].[contenthash].css'),
     new UglifyJSPlugin()
   ]
+  
 })
 // eslint-disable-next-line eol-last
