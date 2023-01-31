@@ -3,6 +3,7 @@
   height: 720px;
   padding-top: 1px;
   text-align: center;
+  position: relative;
 }
 .location__title {
   margin-top: 59px;
@@ -15,7 +16,14 @@
 .button_location {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 56.45px;
   display: block;
+}
+.location__image {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: -1;
 }
 [class^="number-slide"],
 [class*=" number-slide"] {
@@ -93,15 +101,16 @@
   flex-wrap: wrap;
 }
 .keen-slider-location {
-  height: 600px;
+  height: 360px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 71.12px;
 }
 .keen-slider__slide-location {
   width: 1000px;
 }
 .thumbnail-location {
-  height: 200px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
