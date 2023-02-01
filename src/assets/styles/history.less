@@ -2,7 +2,6 @@
     width: 1240px;
     height: 461px;
     padding-top: 1px;
-    padding-left: 100px;
     padding-right: 100px;
     text-align: center;
     background-color: #F9F4EE;
@@ -10,11 +9,23 @@
 
 .history__title {
     margin-top: 59px;
+    margin-left: 100px;
     font-family: Montserrat;
     font-size: 36px;
     line-height: 43.2px;
     font-weight: semibold;
     color: #333333;
+}
+
+.history__title-middle {
+    text-align: center;
+    margin-top: 5.86vw;
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: semibold;
+    color: #333333;
+    display: none;
 }
 
 .history__text {
@@ -25,8 +36,48 @@
     line-height: 26px;
     font-weight: medium;
     color: #4A4A4A;
+    display: block;
+}
+
+.history__text-middle {
+    text-align: left;
+    margin-top: 32px;
+    margin-left: 9.77vw;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: medium;
+    color: #4A4A4A;
+    display: none;
 }
 
 .history__link {
     float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    .history {
+        width: 100vw;
+        height: 47.95vw;
+    }
+    
+    .history__title {
+        display:none;
+    }
+    
+    .history__text {
+        display:none;
+    }
+
+    .history__text-middle {
+        display: block;
+    }
+
+    .history__title-middle {
+        display: block;
+    }
+
+    .history__link {
+        margin-right: 7.81vw;
+    }
 }
