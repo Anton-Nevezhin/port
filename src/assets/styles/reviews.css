@@ -19,9 +19,18 @@
   display: flex;
   justify-content: space-between;
 }
+.reviews__content-middle {
+  margin-top: 80px;
+  margin-left: 170px;
+  width: 740px;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
 .review {
   text-align: center;
   margin-top: 101px;
+  width: 340px;
 }
 .review__name {
   margin-top: 31px;
@@ -54,4 +63,39 @@
 }
 .review-top {
   margin-top: 0px;
+}
+@media only screen and (max-width: 1024px) {
+  .reviews {
+    width: 100vw;
+    height: 70vw;
+  }
+  .stages__title {
+    margin-top: 7.87vw;
+  }
+  .reviews__content {
+    display: none;
+  }
+  .reviews__content-middle {
+    display: block;
+  }
+  .stage__first {
+    top: 21.15vw;
+    left: 9.77vw;
+  }
+  .stage__second {
+    top: 26.71vw;
+    left: 56.25vw;
+  }
+  .stage__third {
+    top: 53.91vw;
+    left: 40.14vw;
+  }
+  .stage__fourth {
+    top: 79.49vw;
+    left: 9.08vw;
+  }
+  .stage__fifth {
+    top: 92.38vw;
+    left: 51.27vw;
+  }
 }

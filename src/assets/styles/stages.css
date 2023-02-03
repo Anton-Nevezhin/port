@@ -4,6 +4,7 @@
   padding-top: 1px;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 .stage {
   width: 348px;

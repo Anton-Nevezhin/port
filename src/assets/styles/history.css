@@ -27,6 +27,7 @@
 }
 .history__text {
   text-align: left;
+  margin-left: 100px;
   margin-top: 32px;
   font-family: Montserrat;
   font-size: 16px;
@@ -53,6 +54,7 @@
   .history {
     width: 100vw;
     height: 47.95vw;
+    padding-right: 0px;
   }
   .history__title {
     display: none;

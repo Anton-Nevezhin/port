@@ -19,6 +19,24 @@
   border-bottom-color: #B1B1B1;
   border-bottom-style: solid;
 }
+.footer__content-middle {
+  margin-top: 26px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1240px;
+  height: 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-color: #B1B1B1;
+  border-bottom-style: solid;
+  display: none;
+}
+.new {
+  display: flex;
+  justify-content: space-between;
+}
 .footer__networks {
   margin-left: auto;
   margin-right: auto;
@@ -50,4 +68,41 @@
   line-height: 26px;
   font-weight: bold;
   color: #4A4A4A;
+}
+@media only screen and (max-width: 1024px) {
+  .footer {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100vw;
+    height: 26.86vw;
+  }
+  .footer__content {
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #B1B1B1;
+    border-bottom-style: solid;
+    display: none;
+  }
+  .footer__content-middle {
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 15.23vw;
+    display: block;
+  }
+  .logo_footer-middle {
+    width: 16.6vw;
+    height: 5.37vw;
+  }
+  .menu_footer {
+    width: 48.83vw;
+  }
 }

@@ -26,10 +26,11 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 .certificate__left {
   text-align: left;
-  margin-left: 120px;
+  margin-left: 4.88vw;
 }
 .certificate__overhead {
   margin-top: 112px;
@@ -99,6 +100,13 @@
     width: 100vw;
     height: 89.84vw;
   }
+  .certificate__content {
+    margin-top: 7.81vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84.38vw;
+    height: 60.84vw;
+  }
   .certificate__title {
     margin-top: 9.77vw;
     font-size: 36px;
@@ -115,5 +123,16 @@
     margin-top: 7.81vw;
     width: 84.38vw;
     height: 60.84vw;
+  }
+  .certificate__image {
+    width: 438px;
+    height: 438px;
+  }
+  .certificate__right {
+    margin-right: 17px;
+  }
+  .certificate__curve {
+    left: 40vw;
+    top: 20vw;
   }
 }
