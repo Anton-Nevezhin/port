@@ -23,12 +23,13 @@
 }
 
 .reviews__content-middle {
-    margin-top: 80px;
+    margin-top: 7.81vw;
     margin-left: 170px;
     width: 740px;
     display: flex;
     justify-content: space-between;
     display: none;
+    background-color:aqua;
 }
 
 .review {
@@ -83,6 +84,10 @@
     margin-top: 0px;
 }
 
+.reviews__content-table{
+    display: flex;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .reviews {
@@ -99,32 +104,15 @@
     }
 
     .reviews__content-middle {
+        margin-top: 7.81vw;
         display: block;
     }
+ 
+    .review-middle {
+        margin-top: 0;
+    }
 
-    .stage__first {
-        top: 21.15vw;
-        left: 9.77vw;
+    .button_reviews-middle {
+        margin-top: 4.1vw;
     }
-    
-    .stage__second {
-        top: 26.71vw;
-        left: 56.25vw;
-    }
-    
-    .stage__third {
-        top: 53.91vw;
-        left: 40.14vw;
-    }
-    
-    .stage__fourth {
-        top: 79.49vw;
-        left: 9.08vw;
-    }
-    
-    .stage__fifth {
-        top: 92.38vw;
-        left: 51.27vw;
-    }
-    
 }

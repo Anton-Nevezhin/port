@@ -9,8 +9,9 @@
         each item in reviews
                 +review(item.name, item.text, item.class, item.image)
     .reviews__content-middle
-        - var i = 0;
-            while i < 1
-                +review(reviews[i].name, reviews[i].text, reviews[i].class, reviews[i].image)
-                - i += 1;
-    button.button.button_reviews ДОБАВИТЬ ОТЗЫВ
+        .reviews__content-table
+            - var i = 0;
+                while i < 2
+                    +review(reviews[i].name, reviews[i].text, 'review review-middle', reviews[i].image)
+                    - i += 1;
+    button.button.button_reviews.button_reviews-middle ДОБАВИТЬ ОТЗЫВ

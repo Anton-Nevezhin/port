@@ -3,7 +3,6 @@ mixin menu(title)
         a.link.link_header(href= '#')=title
 
 - const points = ['Портфолио', 'Виды работ', 'О фотостудии', 'Услуги и цены', 'Контакты']
-
 .header
     .header__content
         .logo 
@@ -13,5 +12,12 @@ mixin menu(title)
                 +menu(item)
         button.header__button ОБРАТНЫЙ ЗВОНОК
         .header__tel +7 (499) 344 60 91
+        .header__contacts
+            .header__tel.header__tel-middle +7 (499) 344 60 91  
+            button.header__button.header__button-middle ОБРАТНЫЙ ЗВОНОК
+
+
+
+
 
 
