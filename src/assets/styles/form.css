@@ -161,7 +161,7 @@
   }
   .input__text {
     margin-top: 8px;
-    width: 37.11vw;
+    width: 40.2vw;
     height: 4.69vw;
     border-radius: 5px;
     border-color: #DDDEE4;
@@ -181,6 +181,9 @@
     height: 4.69vw;
   }
   .form__agreement {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46.78vw;
     margin-top: 16px;
     font-family: Montserrat;
     font-size: 12px;
