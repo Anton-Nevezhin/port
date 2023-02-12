@@ -75,10 +75,10 @@
   .history__text {
     display: none;
   }
-  .history__text-middle {
+  .history__title-middle {
     display: block;
   }
-  .history__title-middle {
+  .history__text-middle {
     display: block;
   }
   .history__link {
