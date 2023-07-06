@@ -1,12 +1,14 @@
 .slider {
   width: 1440px;
   height: 860px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 1px;
   position: relative;
 }
 .slider__content {
+  margin-left: 100px;
   height: 860px;
-  padding-left: 100px;
   padding-top: 1px;
   margin-top: -860px;
 }
@@ -66,7 +68,7 @@
 }
 @keyframes round {
   25% {
-    opacity: 0.5;
+    opacity: 0.7;
   }
   40% {
     opacity: 0;
@@ -90,7 +92,7 @@ img:nth-child(4) {
     height: 611px;
   }
   .slider__content {
-    padding-left: 80px;
+    margin-left: 9.77vw;
     margin-top: -611px;
     height: 611px;
   }

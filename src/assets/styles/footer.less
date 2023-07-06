@@ -21,6 +21,26 @@
     border-bottom-style: solid;
 }
 
+.footer__content-middle {
+    padding-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84.38vw;
+    height: 15.23vw;
+    align-items: center;
+    border-bottom-width:1px;
+    border-bottom-color:#B1B1B1;
+    border-bottom-style: solid;
+    display: none;
+}
+
+.panel-middle {
+    margin-top: 6.26vw;
+    width: 84.38vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__networks {
     margin-left: auto;
     margin-right: auto;
@@ -58,3 +78,36 @@
     color: #4A4A4A;
 }
 
+@media only screen and (max-width: 1024px) {
+    .footer {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100vw;
+        height: 26.86vw;
+    }
+
+    .footer__content {
+        display: none;
+        width: 100vw;
+    }
+    
+    .footer__content-middle {
+        display: block;
+    }
+
+    .logo_footer-middle {
+        width: 16.6vw;
+        height: 5.37vw;
+    }
+
+    .menu_footer {
+        width: 48.83vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .text__header {
+        width: 127px;
+        text-align: center;
+    }
+}

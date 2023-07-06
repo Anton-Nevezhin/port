@@ -1,3 +1,6 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable semi */
+/* eslint-disable eol-last */
 /* eslint-disable no-new */
 /* eslint-disable no-undef */
 'use strict'
@@ -5,6 +8,7 @@
 const merge = require('webpack-merge')
 const config = require('../config')
 const webpack = require('webpack')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = merge(require('./webpack.base.conf'), {
@@ -40,13 +44,10 @@ module.exports = merge(require('./webpack.base.conf'), {
     new webpack.LoaderOptionsPlugin({
       minimize: true
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
-    new ExtractTextPlugin(config().assetsSubDirectory + '/css/[name].[contenthash].css')
+    new UglifyJSPlugin(),
+    new ExtractTextPlugin(config().assetsSubDirectory + '/css/[name].[contenthash].css'),
+    new UglifyJSPlugin()
   ]
+  
 })
 // eslint-disable-next-line eol-last
-new UglifyJSPlugin()

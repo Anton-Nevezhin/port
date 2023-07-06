@@ -1,0 +1,10 @@
+.cards {
+  display: flex;
+}
+.cards__item {
+  margin-left: 20px;
+  width: 25%;
+}
+.cards__item:first-child {
+  margin-left: 0;
+}
